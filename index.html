@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="Compute.js"></script>
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <h1 id="title"> Temperature Converter </h1>
+    <p> Convert between Fahrenheit and Celsius. </p>
+
+    <div class="sidebyside">
+        <p> Enter Fahrenheit temperature </p>
+        <input id="fInputValue">
+        <button type="button" onclick="convertToC()">Submit</button>
+        <p id="resultCValue">&nbsp;</p>
+    </div>
+
+    <div class="sidebyside">
+        <p> Enter Celsius temperature </p>
+        <input id="cInputValue">
+        <button type="button" onclick="convertToF()">Submit</button>
+        <p id="resultFValue">&nbsp;</p>
+    </div>
+
+    <p id="bottom"> Created by Zahid. More features coming soon! </p>
+
+</body>
+
+</html>
